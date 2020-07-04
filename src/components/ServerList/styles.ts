@@ -24,8 +24,3 @@ overflow-y:scroll;
 
 `;
 
-export const Separator = styled.div`
-width:32px;
-border-bottom:2px solid var(--quaternary); ;
-
-`;

@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Separator } from "./styles";
+import { Container } from "./styles";
 import ServerButton from "../ServerBotton";
+import Separator from "../Separator";
 
 
 const ServerList: React.FC = () => {
