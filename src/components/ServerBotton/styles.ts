@@ -44,7 +44,31 @@ cursor: pointer;
 
 
 }
-&::after{ }
+&::after{ 
+  background-color: var(--notification);
+  width:auto;
+  height:16px;
+
+  padding:0 4px;
+
+  position: absolute;
+  bottom:-4px;
+  right: -4px;
+
+  border-radius: 12px;
+  border: 4px solid var(--quaternary);
+
+  text-align:right;
+  font-size:13px;
+  font-weight:bold;
+  color: var(--yellow);
+
+/* (dentro da props) => verifique se há menções && add o num de menções   */
+  content: " ${ (props) => props.mentions && props.mentions}";
+  /* Caso tenha notificacoes ? mostrar na tela (V)  : (F) */
+display: ${(props) =>
+    props.mentions && props.mentions > 0 ? "inline" : "none}"
+  };
 
 
 transition: border - radius.2s, background - color.2s;
@@ -53,7 +77,7 @@ transition: border - radius.2s, background - color.2s;
 &:hover{
   border-radius: 16px;
   background-color:
-  ${ props => props.isHome ? "var(--rocketseat)" : "var(--discord)"};
+  ${ (props) => props.isHome ? "var(--rocketseat)" : "var(--discord)"};
 
 };
 
