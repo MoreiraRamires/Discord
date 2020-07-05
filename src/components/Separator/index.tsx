@@ -8,7 +8,7 @@ const Separator: React.FC = () => {
   return (
 
     <SeparatorImg>
-      <img src={Sabre} alt="" />
+      <img src={Sabre} alt="Sabre de Luz" />
 
 
     </SeparatorImg>

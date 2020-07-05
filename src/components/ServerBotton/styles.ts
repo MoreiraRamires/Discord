@@ -27,18 +27,34 @@ cursor: pointer;
   height: 24px;
 }
 
-&:: before{ }
-&:: after{ }
+&::before { 
+  width:9px;
+  height:9px;
+
+  position:absolute;/*Só funciona pq na linha 22 temos a position relative*/
+  left:-17px;
+  top:calc(50%- 4.5px);
+
+  background-color: var(--yellow);
+  border-radius:50%;
+  
+  content:""; /*pseudos elements=> content é obrigatório ainda que vazio */
+  display: ${props => (props.hasNotifications ? "inline" : "none")};
+
+
+
+}
+&::after{ }
 
 
 transition: border - radius.2s, background - color.2s;
 
 &.active,
-&: hover{
+&:hover{
   border-radius: 16px;
   background-color:
   ${ props => props.isHome ? "var(--rocketseat)" : "var(--discord)"};
 
-}
+};
 
 `;
