@@ -35,7 +35,7 @@ cursor: pointer;
   left:-17px;
   top:calc(50%- 4.5px);
 
-  background-color: var(--yellow);
+  background-color: var(--white);
   border-radius:50%;
   
   content:""; /*pseudos elements=> content é obrigatório ainda que vazio */
@@ -79,6 +79,6 @@ transition: border - radius.2s, background - color.2s;
   background-color:
   ${ (props) => props.isHome ? "var(--rocketseat)" : "var(--discord)"};
 
-};
+}
 
 `;
