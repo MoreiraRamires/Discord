@@ -21,8 +21,8 @@ color: #fff;
 
 
 >img{ 
-  width:28px;
-  height:28px;}`;
+  width:25px;
+  height:25px;}`;
 
 export const ExpandIcon = styled(ExpandMore)`
 width:28px;
