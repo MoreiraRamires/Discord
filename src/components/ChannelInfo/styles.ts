@@ -35,13 +35,13 @@ export const Separator = styled.div`
   width:28px;
   height:28px;
   
-  margin-left:10px}
+  margin-left:20px}
 `;
 
 
-export const Description = styled.h5`
+export const Description = styled.span`
 margin-left:9px;
 
 font-size:14px;
-color:var(--white);
+color:var(--gray);
 `;
