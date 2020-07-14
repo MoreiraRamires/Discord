@@ -4,7 +4,7 @@ import React from "react";
 export default function Layout (){ return <div> Oi mundo </div>}; */
 
 import { Container, AddCategoryIcon, Category } from "./styles";
-
+import ChannelButton from "../ChannelButton";
 const ChannelList: React.FC = () => {
   return (
     <Container>
@@ -14,11 +14,11 @@ const ChannelList: React.FC = () => {
         <AddCategoryIcon />
       </Category>
 
-      {/*<ChannelButton channelName="Destruir Estrela da Morte" />
+      <ChannelButton channelName="Destruir Estrela da Morte" />
 
       <ChannelButton channelName="Grand Prix em Tatooine" />
 
-  <ChannelButton channelName="Matar Sith Safado LoL" />*/}
+      <ChannelButton channelName="Matar Sith Safado LoL" />
 
     </Container>
 

@@ -15,6 +15,7 @@ const Layout: React.FC = () => {
       <ServerName />
       <ChannelInfo />
       <ChannelList />
+
     </Grid>
 
   );
