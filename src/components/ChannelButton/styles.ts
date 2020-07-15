@@ -26,6 +26,8 @@ transition: background-color .2s;
   margin-left:5px;
 }
 
+
+
 &:hover,/* passo o mouse por cima*/
 &:active /*  clico no canal*/{
   background-color:var(--quinary);
@@ -37,10 +39,28 @@ transition: background-color .2s;
 
 `;
 export const HashtagIcon = styled(Hashtag)`
-width:24px;
-height:24px;
+width:20px;
+height:20px;
 color:var(--symbol);
 
 `;
-export const InviteIcon = styled(PersonAdd)``;
-export const SettingsIcon = styled(Settings)``;
+export const InviteIcon = styled(PersonAdd)`
+width:16px;
+height:16px;
+color:var(--symbol);
+cursor: pointer;
+transition:0.2s;
+&:hover{
+  color:var(--white);
+}
+`;
+export const SettingsIcon = styled(Settings)`
+margin-left:5px;
+width:16px;
+height:16px;
+color:var(--symbol);
+cursor: pointer;
+transition:0.2s;
+&:hover{
+  color:var(--white);
+}`;

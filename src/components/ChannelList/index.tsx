@@ -18,7 +18,7 @@ const ChannelList: React.FC = () => {
 
       <ChannelButton channelName="Grand Prix em Tatooine" />
 
-      <ChannelButton channelName="Matar Sith Safado LoL" />
+      <ChannelButton channelName="Matar Sith Safado" />
 
     </Container>
 
