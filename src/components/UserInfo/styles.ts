@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Mic, Headset, Settings } from 'styled-icons/material';
 
 export const Container = styled.div`
-  grid-area:"UI";
+  grid-area:UI;
 
   display:flex;
   justify-content:space-between;
