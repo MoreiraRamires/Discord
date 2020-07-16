@@ -10,7 +10,7 @@ flex-direction:column;
 align-items:center;
 
 
-background-color:var(--tertiary);;
+background-color:var(--tertiary);
 padding:11px 0px;
 
 height:100vh;
