@@ -33,7 +33,7 @@ overflow-y:scroll;
  `;
 export const Role = styled.span`
 margin-top:20px;
-text-transform:20px;
+text-transform:uppercase;
 font-size:12px;
 color: var(--gray);
 font-weight:500;

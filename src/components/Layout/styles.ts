@@ -21,7 +21,7 @@ export const Grid = styled.div`
    /* o auto vai fazer com que a terceira coluna/ segunda linha sejam flexíveis em relacao ao tamanho da tela */
 
 
-  grid-template-areas: 
+   grid-template-areas:
     'SL SN CI CI'
     'SL CL CD UL'
     'SL UI CD UL';
