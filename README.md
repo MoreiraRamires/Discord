@@ -1,1 +1,1 @@
-https://img.shields.io/github/license/MoreiraRamires/Discord
+![GitHub](https://img.shields.io/github/license/MoreiraRamires/Discord)
