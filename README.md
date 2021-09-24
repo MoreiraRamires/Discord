@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ROCKETFY" title="#Discord" src="./assets/banner.png" />
+    <img alt="Discord" title="Interface do Discord com ReactJS" src="./assets/banner.png" />
 </h1>
 
 <h4 align="center"> 
