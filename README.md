@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="ROCKETFY" title="#ROCKETFY" src="./assets/banner.png" />
+    <img alt="ROCKETFY" title="#Discord" src="./assets/banner.png" />
 </h1>
 
 <h4 align="center"> 
-	🚧 ROCKETFY 🚧
+	Interface do Discord com ReactJS
 </h4>
 
 <p align="center">
